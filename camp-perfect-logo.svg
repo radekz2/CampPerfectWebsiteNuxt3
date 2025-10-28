@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Camp Perfect Checklist logo">
+  <title>Camp Perfect Checklist logo</title>
+  <!-- Brand color -->
+  <defs>
+    <style>
+      .brand { fill:#2e7d32; }
+    </style>
+  </defs>
+
+  <!-- Left pine tree (stacked triangles) -->
+  <path class="brand" d="M96 160 L76 200 L116 200 Z" />
+  <path class="brand" d="M96 200 L64 250 L128 250 Z" />
+  <path class="brand" d="M96 250 L52 310 L140 310 Z" />
+
+  <!-- Right pine tree (mirrored) -->
+  <path class="brand" d="M416 160 L396 200 L436 200 Z" />
+  <path class="brand" d="M416 200 L384 250 L448 250 Z" />
+  <path class="brand" d="M416 250 L372 310 L460 310 Z" />
+
+  <!-- Tent body -->
+  <path class="brand" d="M256 120 L120 360 L392 360 Z" />
+
+  <!-- Tent door (white triangle) -->
+  <path d="M256 220 L220 300 L292 300 Z" fill="#ffffff"/>
+
+  <!-- Ground/base -->
+  <rect x="40" y="380" width="432" height="40" rx="16" class="brand"/>
+</svg>
