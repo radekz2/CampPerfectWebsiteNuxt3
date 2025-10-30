@@ -8,7 +8,7 @@
         <div class="nav-content">
           <div class="logo">
             <img src="/images/camp-perfect-logo.svg" alt="Camp Perfect Checklist Logo" />
-            <span class="logo-text">Camp Perfect</span>
+            <span class="logo-text">Camp Perfect Checklist</span>
           </div>
           <div class="nav-links">
             <a href="#hero" class="nav-link">Home</a>
@@ -124,18 +124,17 @@
         <h2 class="section-title">See It In Action</h2>
         <div class="app-showcase">
           <div class="app-description">
-            <h3>Available Now</h3>
+            <h3>Try Now</h3>
             <p>
-              Camp Perfect Checklist is a web app that works on all your devices. 
-              No installation required - just open it in your browser and start organizing your camping gear.
+              Camp Perfect Checklist will be soon released for Android, but in the meantime you can test drive this web version.
             </p>
-            <a href="https://campperfectchecklist.netlify.app/tabs/tabpack" target="_blank" class="btn btn-primary">
+            <a href="https://campperfectchecklist.netlify.app/tabs/tabpack" target="_blank" class="btn btn-large">
               Launch App
             </a>
           </div>
           <div class="app-image">
             <div class="app-placeholder">
-              📱 App Screenshot
+              <img src="/images/screenshots/pack-tab.jpg" />
             </div>
           </div>
         </div>
@@ -151,7 +150,7 @@
             Start using Camp Perfect Checklist today and make your next camping trip stress-free.
           </p>
           <a href="https://campperfectchecklist.netlify.app/tabs/tabpack" target="_blank" class="btn btn-large">
-            Get Started Now
+            Try Now
           </a>
         </div>
       </div>
@@ -433,6 +432,10 @@ body {
   margin-top: 2rem;
 }
 
+.app-description {
+  align-self: start;
+}
+
 .app-description h3 {
   font-size: 2rem;
   font-weight: 600;
@@ -450,11 +453,22 @@ body {
 .app-placeholder {
   background: var(--bg-light);
   padding: 4rem 2rem;
-  text-align: center;
   border-radius: 12px;
-  font-size: 2rem;
   color: var(--text-secondary);
   border: 2px dashed var(--text-secondary);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.app-placeholder img {
+  display: block;
+  width: auto;        /* keep intrinsic width by default */
+  max-width: 100%;    /* allow it to scale down on small screens */
+  height: auto;       /* preserve aspect ratio */
+  max-height: 100%;
 }
 
 /* Download Section */
